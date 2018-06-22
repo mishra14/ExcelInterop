@@ -16,8 +16,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ankit Mishra</Authors>
     <Description>Interop package that can be used to store data as an excel sheet.</Description>
-    <RepositoryUrl>https://github.com/mishra14/NuGetBuildValidators</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/mishra14/NuGetBuildValidators</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mishra14/ExcelInterop</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mishra14/ExcelInterop</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
