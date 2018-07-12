@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27813.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelInterop", "ExcelInterop\ExcelInterop.csproj", "{19B5E814-9022-41E5-82ED-D07F744D765B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelInterop.Test", "ExcelInterop.Test\ExcelInterop.Test.csproj", "{9C1BA533-EA5D-4520-81C3-4A5A1E6F549B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelInterop.Sample", "ExcelInterop.Test\ExcelInterop.Sample.csproj", "{9C1BA533-EA5D-4520-81C3-4A5A1E6F549B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

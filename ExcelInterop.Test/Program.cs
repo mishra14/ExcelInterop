@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ExcelInterop.Test
+namespace ExcelInterop.Sample
 {
     class Program
     {
