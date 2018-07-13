@@ -7,15 +7,23 @@ namespace ExcelInterop.Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+			TestDataLoad();
+		}
 
-            var data = new List<IList<string>>()
-            {
-                new List<string>() { "hello", "high"},
-                new List<string>() { "hi", "bye"},
-            };
+		private static void TestDataSave()
+		{
+			var data = new List<IList<string>>()
+			{
+				new List<string>() { "hello", "high"},
+				new List<string>() { "hi", "bye"},
+			};
 
-            ExcelUtility.SaveAsExcel(data, @"F:\validation\demo\codes.xlsx");
-        }
-    }
+			ExcelUtility.SaveAsExcel(data, @"F:\validation\demo\codes.xlsx");
+		}
+
+		private static void TestDataLoad()
+		{
+			var data = ExcelUtility.ReadFromExcel(@"F:\validation\demo\codes.xlsx", "Pack");
+		}
+	}
 }
