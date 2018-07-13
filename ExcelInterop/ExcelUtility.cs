@@ -97,7 +97,8 @@ namespace ExcelInterop
 					}
 				}
 			}
-			excelApp.ActiveWorkbook.Close();
+
+			workbook.Close();
 			excelApp.Quit();
 
 			return result;
